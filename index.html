@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+    <html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+
+        <script type="text/javascript"> 
+
+        var i = 0;
+        var txt = 'Lorem ipsum typing effect!'; /* The text */
+        var speed = 50; /* The speed/duration of the effect in milliseconds */
+
+        function typeWriter() {
+        if (i < txt.length) {
+            document.getElementById("text-1").innerHTML += txt.charAt(i);
+            i++;
+            setTimeout(typeWriter, speed);
+        }
+        }
+        
+        
+        </script>
+    </head>
+    <body>
+    
+    <div class="main-div">
+
+        <div class="header">
+            <div class = "main">
+                <ul>
+                    <li><a class = "active" href = "#1">Home</a></li>
+                    <li><a  href = "#text-2">Skills</a></li>
+                    <li><a  href = "#text-4">Projects</a></li>
+                    <li><a  href = "#text-3">Education</a></li>
+                    <li><a  href = "#5">Contact</a></li>
+                    <li><a  class = "resume" href = "#">Resume</a></li>
+                 </ul>
+            </div>
+        </div>
+
+        <div id = "text-1" >
+            <p> Hi My Name is Prayas Lashkari Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quos magni autem alias odio suscipit voluptates, quo deserunt explicabo error molestias quis, commodi modi minima fuga repellat accusamus molestiae unde.</p>  
+        </div> 
+      
+        <div id="text-2">
+            <h2>Skilleyys</h2>
+            <ul id="skill1">
+                <li>HTML</li>
+                <progress id="file" value="32" max="100"> 32% </progress>
+                <li>CSS</li>
+                <progress id="file" value="32" max="100"> 32% </progress>
+                <li>JS</li>
+                <progress id="file" value="32" max="100"> 32% </progress>
+                <li>Photoshop</li>
+                <progress id="file" value="32" max="100"> 32% </progress>
+                <li>Figma</li>
+                <progress id="file" value="32" max="100"> 32% </progress>
+                <li>ReactJs</li>
+                <progress id="file" value="32" max="100"> 32% </progress>
+            </ul>
+        </div>
+    
+        <div id="text-3" class = "edu-main">
+                <div class="random">
+                    <h2>Education</h2>
+                </div> 
+
+                <div class = "edu-content">
+                    <div>
+                         <p>B.tech, CSE</p>
+                         JIIT Noida
+                     </div>
+                     <div>
+                         <p>HSC</p>
+                         Delhi Public School
+                      </div>
+                      <div>
+                         <p>SSC</p>
+                         Delhi Public School
+                      </div>
+                </div>
+                
+        </div>
+  
+        <div id="text-4" class= "project">
+            
+            <div class="random">
+                <h2>Projects</h2>
+            </div> 
+
+            <div class = "project-content">
+                
+                <div>
+                    Lorem, ipsum.<br>
+                    <a style="font-size: large; " href="#">wwww.github.com/bansal</a>
+                </div>
+    
+                <div>
+                    Lorem, ipsum. <br>
+                    <a style="font-size: large; " href="#">wwww.github.com/bansal</a>
+                </div>
+                
+                <div>
+                    Lorem, ipsum. <br>
+                    <a style="font-size: large; " href="#">wwww.github.com/bansal</a>
+                </div>
+                
+                <div>
+                    Lorem, ipsum. <br>
+                    <a style="font-size: large; " href="#">wwww.github.com/bansal</a>
+                </div>
+                <div>
+                    Lorem, ipsum. <br>
+                    <a style="font-size: large; " href="#">wwww.github.com/bansal</a>
+                </div>
+            
+            </div>
+                
+        </div>
+        
+    
+
+    </div>
+    
+</body>
+</html>
