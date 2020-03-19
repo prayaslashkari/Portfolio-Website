@@ -8,79 +8,71 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-        <script type="text/javascript"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+        </script>
 
-        var i = 0;
-        var txt = 'Lorem ipsum typing effect!'; /* The text */
-        var speed = 50; /* The speed/duration of the effect in milliseconds */
-
-        function typeWriter() {
-        if (i < txt.length) {
-            document.getElementById("text-1").innerHTML += txt.charAt(i);
-            i++;
-            setTimeout(typeWriter, speed);
-        }
-        }
-        
-        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
         </script>
     </head>
-    <body>
-    
+
+    <body>  
     <div class="main-div">
 
         <div class="header">
             <div class = "main">
                 <ul>
-                    <li><a class = "active" href = "#1">Home</a></li>
+                    <li><a class = "active" href = "#text-1">Home</a></li>
                     <li><a  href = "#text-2">Skills</a></li>
-                    <li><a  href = "#text-4">Projects</a></li>
                     <li><a  href = "#text-3">Education</a></li>
+                    <li><a  href = "#text-4">Projects</a></li>  
                     <li><a  href = "#5">Contact</a></li>
-                    <li><a  class = "resume" href = "#">Resume</a></li>
+                    <li><a  class = "resume" href = "https://drive.google.com/open?id=1YVyQnz6PvOoLTEm0pBTNFQ6SXFXvZINZ">Resume <span class="glyphicon glyphicon-download"></span></a></li>
                  </ul>
             </div>
         </div>
 
         <div id = "text-1" >
-            <p> Hi My Name is Prayas Lashkari Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quos magni autem alias odio suscipit voluptates, quo deserunt explicabo error molestias quis, commodi modi minima fuga repellat accusamus molestiae unde.</p>  
+            <p> Hi My Name is Prayas Lashkari. I am a Frontend Web Developer based in Noida. I am currently in my final year of my college. 
+                <br> I've 3+ years Exp in Visual Design
+            </p>  
         </div> 
       
         <div id="text-2">
-            <h2>Skilleyys</h2>
+            <h2>Skillset <span class="glyphicon glyphicon-tasks"></span> </h2>
             <ul id="skill1">
                 <li>HTML</li>
-                <progress id="file" value="32" max="100"> 32% </progress>
+                <progress id="file" value="60" max="100"> 32% </progress>
                 <li>CSS</li>
-                <progress id="file" value="32" max="100"> 32% </progress>
+                <progress id="file"  value="60" max="100"> 32% </progress>
                 <li>JS</li>
-                <progress id="file" value="32" max="100"> 32% </progress>
+                <progress id="file" value="60" max="100"> 32% </progress>
+                <li>React Js</li>
+                <progress id="file" value="40" max="100"> 32% </progress>
                 <li>Photoshop</li>
-                <progress id="file" value="32" max="100"> 32% </progress>
+                <progress id="file" value="70" max="100"> 32% </progress>
                 <li>Figma</li>
-                <progress id="file" value="32" max="100"> 32% </progress>
-                <li>ReactJs</li>
-                <progress id="file" value="32" max="100"> 32% </progress>
+                <progress id="file" value="70" max="100"> 32% </progress>
             </ul>
         </div>
     
         <div id="text-3" class = "edu-main">
                 <div class="random">
-                    <h2>Education</h2>
+                    <h2>Education <span class="glyphicon glyphicon-book"></span> </h2>
                 </div> 
 
                 <div class = "edu-content">
                     <div>
-                         <p>B.tech, CSE</p>
+                         <p>B.Tech, CSE</p>
                          JIIT Noida
                      </div>
                      <div>
-                         <p>HSC</p>
+                         <p>12th CBSE</p>
                          Delhi Public School
                       </div>
                       <div>
-                         <p>SSC</p>
+                         <p>10th CBSE</p>
                          Delhi Public School
                       </div>
                 </div>
@@ -90,38 +82,78 @@
         <div id="text-4" class= "project">
             
             <div class="random">
-                <h2>Projects</h2>
+                <h2>Projects <span class="glyphicon glyphicon-list-alt"></span> </h2>
             </div> 
 
             <div class = "project-content">
                 
                 <div>
-                    Lorem, ipsum.<br>
-                    <a style="font-size: large; " href="#">wwww.github.com/bansal</a>
+                    Resume Website V1 using HTML, CSS<br>
+                    <a style="font-size: large; " href="https://github.com/callmehickey/Portfolio-Website"> https://github.com/callmehickey/Portfolio-Website</a>
                 </div>
     
                 <div>
-                    Lorem, ipsum. <br>
-                    <a style="font-size: large; " href="#">wwww.github.com/bansal</a>
+                    Project 2 <br>
+                    <a style="font-size: large; " href="#">wwww.github.com/prayasXX</a>
                 </div>
                 
                 <div>
-                    Lorem, ipsum. <br>
-                    <a style="font-size: large; " href="#">wwww.github.com/bansal</a>
+                    Project 3 <br>
+                    <a style="font-size: large; " href="#">wwww.github.com/prayasXX</a>
                 </div>
                 
                 <div>
-                    Lorem, ipsum. <br>
-                    <a style="font-size: large; " href="#">wwww.github.com/bansal</a>
+                   Project 4 <br>
+                    <a style="font-size: large; " href="#">wwww.github.com/prayasXX</a>
                 </div>
                 <div>
-                    Lorem, ipsum. <br>
-                    <a style="font-size: large; " href="#">wwww.github.com/bansal</a>
+                    Project 5 <br>
+                    <a style="font-size: large; " href="#">wwww.github.com/prayasXX</a>
                 </div>
             
             </div>
                 
         </div>
+
+
+        <div id="text-5" class= "contact">
+            
+            <div class="random">
+                <h2>Contact Me <span class="glyphicon glyphicon-heart-empty"></span> </h2>
+            </div> 
+
+            <div class = "contact-content">
+                
+                <div>
+                    LinkedIn<br>
+                    <a style="font-size: large; " href="https://www.linkedin.com/in/prayaslashkari/"> https://www.linkedin.com/in/prayaslashkari</a>
+                </div>
+    
+                <div>
+                   Facebook<br>
+                    <a style="font-size: large; " href="https://www.facebook.com/PrayasLashkari">https://www.facebook.com/PrayasLashkari</a>
+                </div>
+                
+                <div>
+                    Behance<br>
+                    <a style="font-size: large; " href="https://www.behance.net/lazyprayas">wwww.behance.net/lazyprayas</a>
+                </div>
+                
+                <div>
+                    Email<br>
+                    <a style="font-size: large; " href="mailto:prayas.lashkari98@gmail.com?Subject=Hi Prayas!">prayas.lashkari98@gmail.com</a>
+                </div>
+                <div>
+                    Checkout My Github <br>
+                    <a style="font-size: large; " href="wwww.github.com/callmehickey">wwww.github.com/callmehickey</a>
+                </div>
+            
+            </div>
+                
+        </div>
+
+
+
         
     
 
